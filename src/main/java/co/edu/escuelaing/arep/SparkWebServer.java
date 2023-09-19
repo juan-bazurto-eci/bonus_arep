@@ -10,11 +10,11 @@ public class SparkWebServer {
         get("/", (req, res) -> getIndexResponse());
         get("/sin/:number", (req, res) -> {
             double number = Double.parseDouble(req.params("number"));
-            return Math.sin(number);
+            return Math.sin(Math.toRadians(number));
         });
         get("/cos/:number", (req, res) -> {
             double number = Double.parseDouble(req.params("number"));
-            return Math.cos(number);
+            return Math.cos(Math.toRadians(number));
         });
         get("/palindromo/:cadena", (req, res) -> {
             String cadena = req.params("cadena");
