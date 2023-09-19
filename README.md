@@ -52,6 +52,12 @@ El servidor responde a todas las funciones
 
 ![](README/run.png)
 
+También se creo la imagen y el servidor corre con docker
+
+![](README/docker_img.png)
+
+![](README/run_docker.png)
+
 ## Built With
 * [Java](https://www.java.com/) - Lenguaje de programación principal
 * [Maven](https://maven.apache.org/) - Gestión de dependencias y construcción del proyecto
