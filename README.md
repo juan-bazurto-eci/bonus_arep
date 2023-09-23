@@ -1,4 +1,4 @@
-# BONO PARCIAL
+# BONO PARCIAL / TALLER DE DE MODULARIZACIÓN CON VIRTUALIZACIÓN E INTRODUCCIÓN A DOCKER
 
 ## Getting Started
 
@@ -10,6 +10,7 @@ Cosas que necesitas instalar y cómo hacerlo.
 
 - [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
 - [Maven](https://maven.apache.org/install.html)
+- [DockerDesktop](https://www.docker.com/products/docker-desktop/)
 
 ### Installing
 
@@ -58,10 +59,18 @@ También se creo la imagen y el servidor corre con docker
 
 ![](README/run_docker.png)
 
+También podemos correr la imagen que subimos a dockerhub
+
+    docker run -d -p 34010:6000 --name bonusdockerhub juanbazurtoeci/bonus_arep
+
+![](README/run_dockerhub.png)
+
 ## Built With
 * [Java](https://www.java.com/) - Lenguaje de programación principal
 * [Maven](https://maven.apache.org/) - Gestión de dependencias y construcción del proyecto
 * Git - Control de versiones
+* [DockerHub](https://hub.docker.com/)
+* [SparkJava](https://sparkjava.com/)
 * HTML, JavaScript - Interfaz de usuario
 
 ## Authors
